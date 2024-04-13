@@ -223,6 +223,9 @@ position: absolute;
 }
 
 @media only screen and (max-width: 820px)  {
+	.fiveclocks{
+		height: 100%;
+	}
 	.information-tag-dsk{
 		display: none;
 	}
