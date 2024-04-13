@@ -50,7 +50,7 @@ position: absolute;
 
 
 #clock-newyork {
-	background: url(New_York.PNG) no-repeat;
+	background:url('NY_Glass.PNG') no-repeat, url(New_York.PNG) no-repeat, url('NY_Shadow.PNG') no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -77,7 +77,7 @@ position: absolute;
 
 #nyminute {
 	width: 1.5%;
-	height: 26%;
+	height: 25.5%;
 	top: 9.5%;
 	left: 49.5%;
 	opacity: 0.9;
@@ -90,7 +90,7 @@ position: absolute;
 		height: 23vw;
 		/*to make the height and width responsive*/
 		
-		background: url(LONDON.PNG) no-repeat;
+		background:url("LONDON_GLASS.PNG") no-repeat, url(LONDON.PNG) no-repeat, url('LONDON_SHADOW.PNG') no-repeat;
 		/*setting our background image*/
 		background-size: contain;
 		justify-content: center;
@@ -149,8 +149,8 @@ position: absolute;
 
 #tokyominute {
 	width: 1.5%;
-	height: 26%;
-	top: 9.5%;
+	height: 25%;
+	top: 10%;
 	left: 48%;
 	opacity: 0.9;
 	transform-origin:50% 90%;
