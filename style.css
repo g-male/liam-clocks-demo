@@ -207,7 +207,7 @@ position: absolute;
 #hkhour {
 	width: 1.8%;
 	height: 15%;
-	top: 20%;
+	top: 21%;
 	left: 50%;
 	opacity: 0.9;
 	transform-origin:50% 80%;
@@ -282,7 +282,7 @@ position: absolute;
 		width: 1.5%;
 		height: 28%;
 		top: 11%;
-		left: 48.5%;
+		left: 49%;
 		opacity: 0.9;
 		transform-origin:50% 90%;
 	}
@@ -290,7 +290,7 @@ position: absolute;
 		width: 1.8%;
 		height: 17%;
 		top: 23%;
-		left: 50.5%;
+		left: 49.5%;
 		opacity: 0.9;
 		transform-origin:50% 80%;
 	}

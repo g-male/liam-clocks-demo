@@ -11,7 +11,7 @@ setInterval(() => {
 	nyminute.style.transform = `rotate(${min_rotation}deg)`;
 	//second.style.transform = `rotate(${sec_rotation}deg)`;
 	
-}, 1000);
+}, 500);
 
 setInterval(() => {
 	londonDate = new Date().toLocaleString("en-GB", {timeZone: "Europe/London"}); //object of date()
@@ -28,7 +28,7 @@ setInterval(() => {
 	londonminute.style.transform = `rotate(${londonmin_rotation}deg)`;
 	//second.style.transform = `rotate(${sec_rotation}deg)`;
 	
-}, 1000);
+}, 500);
 
 setInterval(() => {
 	tokyoDate = new Date().toLocaleString("en-GB", {timeZone: "Asia/tokyo"}); //object of date()
@@ -45,7 +45,7 @@ setInterval(() => {
 	tokyominute.style.transform = `rotate(${tokyomin_rotation}deg)`;
 	//second.style.transform = `rotate(${sec_rotation}deg)`;
 	
-}, 1000);
+}, 500);
 
 setInterval(() => {
 	parisDate = new Date().toLocaleString("en-GB", {timeZone: "Europe/Paris"}); //object of date()
@@ -62,7 +62,7 @@ setInterval(() => {
 	parisminute.style.transform = `rotate(${parismin_rotation}deg)`;
 	//second.style.transform = `rotate(${sec_rotation}deg)`;
 	
-}, 1000);
+}, 500);
 
 
 setInterval(() => {
@@ -80,7 +80,7 @@ setInterval(() => {
 	hkminute.style.transform = `rotate(${hkmin_rotation}deg)`;
 	//second.style.transform = `rotate(${sec_rotation}deg)`;
 	
-}, 1000);
+}, 500);
 
 
 
