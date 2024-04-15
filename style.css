@@ -90,7 +90,7 @@ position: absolute;
 		height: 23vw;
 		/*to make the height and width responsive*/
 		
-		background:url("LONDON_GLASS.PNG") no-repeat, url(LONDON.PNG) no-repeat, url('LONDON_SHADOW.PNG') no-repeat;
+		background:url("/london_4k.jpg") no-repeat, url('LONDON_SHADOW.PNG') no-repeat;
 		/*setting our background image*/
 		background-size: contain;
 		justify-content: center;
@@ -105,23 +105,32 @@ position: absolute;
 }
 
 #londonhour {
-	width: 1.8%;
-	height: 15%;
-	top: 21%;
-	left: 50%;
-	opacity: 0.9;
-	transform-origin:50% 80%;
+	width: 1.5%;
+	height: 13%;
+	top: 17%;
+	left: 50.5%;
+
+	transform-origin:bottom;
 }
 
 #londonminute {
-	width: 1.5%;
-	height: 25%;
-	top: 10%;
-	left: 50%;
-	opacity: 0.9;
-	transform-origin:50% 90%;
-}
+	width: 1.3%;
+	height: 21%;
+	top: 9.5%;
+	left: 50.5%;
 
+	transform-origin:bottom;
+}
+.dot{
+	height: 1rem;
+  width: 1rem;
+  background-color: black;
+  border-radius: 50%;
+  top: 29%;
+  left: 49%;
+position: absolute;
+
+}
 #clock-tokyo {
 
 	
@@ -208,7 +217,7 @@ position: absolute;
 #hkhour {
 	width: 1.5%;
 	height: 13%;
-	top: 18%;
+	top: 17%;
 	left: 50.5%;
 
 	transform-origin:bottom;
@@ -254,6 +263,16 @@ position: absolute;
 	}
 	.clock-item:last-child{
 		margin: 0 auto;
+	}
+	.dot{
+		height: 0.6rem;
+	  width: 0.6rem;
+	  background-color: black;
+	  border-radius: 50%;
+	  top: 29.5%;
+	  left: 48.5%;
+	position: absolute;
+	
 	}
 
 	#tokyohour {
@@ -333,7 +352,7 @@ position: absolute;
 	#hkhour {
 		width: 1.6%;
 		height: 15%;
-		top: 17%;
+		top: 16%;
 		left: 50.5%;
 		
 		transform-origin:bottom;
