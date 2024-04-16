@@ -83,5 +83,17 @@ setInterval(() => {
 }, 500);
 
 
+function infoclick() {
+	var tagdsk = document.getElementById('information-tag-dsk');
+	var tagmbl = document.getElementById('information-tag-mbl');
+	var infob = document.getElementById('infoblurb'); 
+	infob.style.display === "none";
+	if (infob.style.display === "block"){
+		infob.style.display ="none";
+
+	} else{
+	infob.style.display = "block";
+ }	
+}
 
 //console.log(hr1);
