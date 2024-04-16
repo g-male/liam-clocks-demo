@@ -122,12 +122,12 @@ position: absolute;
 	transform-origin:bottom;
 }
 .dot{
-	height: 1rem;
-  width: 1rem;
+	height: 3%;
+  width: 4%;
   background-color: black;
   border-radius: 50%;
-  top: 29%;
-  left: 49%;
+  top: 28.5%;
+  left: 49.5%;
 position: absolute;
 
 }
