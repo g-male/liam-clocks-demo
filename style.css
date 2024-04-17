@@ -50,7 +50,7 @@ position: absolute;
 
 
 #clock-newyork {
-	background:url('NY_Glass.PNG') no-repeat, url(New_York.PNG) no-repeat, url('NY_Shadow.PNG') no-repeat;
+	background: url(ny_4k.jpg) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -99,7 +99,7 @@ position: absolute;
 #londonhour,
 #londonminute{
 	position: absolute;
-	background: black;
+	background: red;
 	border-radius: 0px;
 	
 }
@@ -126,7 +126,7 @@ position: absolute;
   width: 4%;
   background-color: black;
   border-radius: 50%;
-  top: 28.5%;
+  top: 29%;
   left: 49.5%;
 position: absolute;
 
@@ -140,7 +140,7 @@ position: absolute;
 #clock-tokyo {
 
 	
-	background: url('Tokyo_Glass.PNG') no-repeat, url(TOKYO.PNG) no-repeat, url('TOKYO_SHADOW.PNG') no-repeat;
+	background: url(/tokyo_4k.jpg) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -173,7 +173,7 @@ position: absolute;
 #clock-paris {
 
 
-	background:url('/paris_4k.jpg') no-repeat, url("PARIS_SHADOW.PNG") no-repeat;
+	background:url('/paris_4k_dot.png') no-repeat, url("PARIS_SHADOW.PNG") no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 	
@@ -182,7 +182,7 @@ position: absolute;
 #parishour,
 #parisminute {
 	position: absolute;
-	background: black;
+	background: red;
 	border-radius: 0px;
 
 }
@@ -190,8 +190,8 @@ position: absolute;
 #parishour {
 	width: 1.3%;
 	height: 13%;
-	top: 18%;
-	left: 50%;
+	top: 17.5%;
+	left: 49%;
 
 	transform-origin:bottom;
 }
@@ -199,15 +199,15 @@ position: absolute;
 #parisminute {
 	width: 1.3%;
 	height: 21%;
-	top: 10%;
-	left: 50%;
+	top: 9.5%;
+	left:49%;
 
 	transform-origin:bottom;
 }
 #clock-hongkong {
 
 
-	background: url("/hk_4k.jpg" ) no-repeat;
+	background: url("/hk_4k_dot.png" ) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -215,16 +215,16 @@ position: absolute;
 #hkhour,
 #hkminute {
 	position: absolute;
-	background: black;
+	background: red;
 	border-radius: 0px;
 
 }
 
 #hkhour {
-	width: 1.5%;
+	width: 1.3%;
 	height: 13%;
-	top: 17%;
-	left: 50.5%;
+	top: 17.5%;
+	left: 49%;
 
 	transform-origin:bottom;
 }
@@ -233,7 +233,7 @@ position: absolute;
 	width: 1.3%;
 	height: 21%;
 	top: 9.5%;
-	left: 50.5%;
+	left:49%;
 
 	transform-origin:bottom;
 }
@@ -303,7 +303,7 @@ position: absolute;
 		width: 1.3%;
 		height: 15%;
 		top: 16.5%;
-		left: 50%;
+		left: 49%;
 		
 		transform-origin:bottom;
 	}
@@ -312,7 +312,7 @@ position: absolute;
 		width: 1.3%;
 		height: 22%;
 		top: 9.5%;
-		left: 49.5%;
+		left: 49%;
 	
 		transform-origin:bottom;
 		position: relative;
@@ -358,8 +358,8 @@ position: absolute;
 	#hkhour {
 		width: 1.3%;
 		height: 15%;
-		top: 16%;
-		left: 50.5%;
+		top: 16.5%;
+		left: 49%;
 		
 		transform-origin:bottom;
 	}
@@ -368,7 +368,7 @@ position: absolute;
 		width: 1.3%;
 		height: 22%;
 		top: 9.5%;
-		left: 50.5%;
+		left: 49%;
 	
 		transform-origin:bottom;
 		position: relative;
