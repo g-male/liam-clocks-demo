@@ -50,7 +50,7 @@ position: absolute;
 
 
 #clock-newyork {
-	background: url(ny_4k.jpg) no-repeat;
+	background: url(ny_4k_dot.png) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -61,27 +61,27 @@ position: absolute;
 #nyminute,
 #second {
 	position: absolute;
-	background: black;
+	background: red;
 	border-radius: 0px;
 
 }
 
 #nyhour {
-	width: 1.8%;
-	height: 15%;
-	top: 21%;
-	left: 50%;
-	opacity: 0.9;
-	transform-origin:50% 80%;
+	width: 1.3%;
+	height: 13%;
+	top: 17.5%;
+	left: 49%;
+
+	transform-origin:bottom;
 }
 
 #nyminute {
-	width: 1.5%;
-	height: 25.5%;
+	width: 1.3%;
+	height: 21%;
 	top: 9.5%;
-	left: 49.5%;
-	opacity: 0.9;
-	transform-origin:50% 90%;
+	left:49%;
+
+	transform-origin:bottom;
 }
 
 #clock-london {
@@ -90,7 +90,7 @@ position: absolute;
 		height: 23vw;
 		/*to make the height and width responsive*/
 		
-		background:url("/london_4k.jpg") no-repeat, url('LONDON_SHADOW.PNG') no-repeat;
+		background:url("/london_4k_dot.png") no-repeat;
 		/*setting our background image*/
 		background-size: contain;
 		justify-content: center;
@@ -99,7 +99,7 @@ position: absolute;
 #londonhour,
 #londonminute{
 	position: absolute;
-	background: red;
+	background: black;
 	border-radius: 0px;
 	
 }
@@ -107,8 +107,8 @@ position: absolute;
 #londonhour {
 	width: 1.3%;
 	height: 13%;
-	top: 17%;
-	left: 50.5%;
+	top: 17.5%;
+	left: 48.5%;
 
 	transform-origin:bottom;
 }
@@ -117,7 +117,7 @@ position: absolute;
 	width: 1.3%;
 	height: 21%;
 	top: 9.5%;
-	left: 50.5%;
+	left:48.5%;
 
 	transform-origin:bottom;
 }
@@ -140,7 +140,7 @@ position: absolute;
 #clock-tokyo {
 
 	
-	background: url(/tokyo_4k.jpg) no-repeat;
+	background: url(/tokyo_4k_dot.png) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -154,21 +154,21 @@ position: absolute;
 }
 
 #tokyohour {
-	width: 1.8%;
-	height: 15%;
-	top: 21%;
-	left: 48%;
-	opacity: 0.9;
-	transform-origin:50% 80%;
+	width: 1.3%;
+	height: 13%;
+	top: 17.5%;
+	left: 49%;
+
+	transform-origin:bottom;
 }
 
 #tokyominute {
-	width: 1.5%;
-	height: 25%;
-	top: 10%;
-	left: 48%;
-	opacity: 0.9;
-	transform-origin:50% 90%;
+	width: 1.3%;
+	height: 21%;
+	top: 9.5%;
+	left:49%;
+
+	transform-origin:bottom;
 }
 #clock-paris {
 
@@ -282,28 +282,29 @@ position: absolute;
 	}
 
 	#tokyohour {
-		width: 1.8%;
-		height: 17%;
-		top: 23%;
-		left: 49%;
-	
-		transform-origin:50% 80%;
+		width: 1.3%;
+		height: 13%;
+		top: 18.5%;
+		left: 48.5%;
+		
+		transform-origin:bottom;
 	}
 	
 	#tokyominute {
-		width: 1.5%;
-		height: 28%;
-		top: 11%;
+		width: 1.3%;
+		height: 22%;
+		top: 9.5%;
 		left: 48.5%;
-		
-		transform-origin:50% 90%;
+	
+		transform-origin:bottom;
+		position: relative;
 	}
 
 	#parishour {
 		width: 1.3%;
-		height: 15%;
-		top: 16.5%;
-		left: 49%;
+		height: 13%;
+		top: 18.5%;
+		left: 48.5%;
 		
 		transform-origin:bottom;
 	}
@@ -311,34 +312,35 @@ position: absolute;
 	#parisminute {
 		width: 1.3%;
 		height: 22%;
-		top: 9.5%;
-		left: 49%;
+		top: 10%;
+		left: 48.5%;
 	
 		transform-origin:bottom;
 		position: relative;
 	}
 	#nyhour {
-		width: 1.5%;
-		height: 17%;
-		top: 23%;
-		left: 49.5%;
+		width: 1.3%;
+		height: 13%;
+		top: 18.5%;
+		left: 48.5%;
 		
-		transform-origin:50% 80%;
+		transform-origin:bottom;
 	}
 	
 	#nyminute {
-		width: 1.5%;
-		height: 28%;
-		top: 11%;
-		left: 49.5%;
+		width: 1.3%;
+		height: 22%;
+		top: 9.5%;
+		left: 48.5%;
 	
-		transform-origin:50% 90%;
+		transform-origin:bottom;
+		position: relative;
 	}
 	#londonhour {
 		width: 1.3%;
-		height: 15%;
-		top: 16.5%;
-		left: 50%;
+		height: 13%;
+		top: 18.5%;
+		left: 48.5%;
 		
 		transform-origin:bottom;
 	}
@@ -347,8 +349,8 @@ position: absolute;
 		width: 1.3%;
 		height: 22%;
 		top: 9.5%;
-		left: 50.5%;
-	opacity: 1;
+		left: 49%;
+	
 		transform-origin:bottom;
 		position: relative;
 	}
@@ -357,8 +359,8 @@ position: absolute;
 
 	#hkhour {
 		width: 1.3%;
-		height: 15%;
-		top: 16.5%;
+		height: 13%;
+		top: 18.5%;
 		left: 49%;
 		
 		transform-origin:bottom;
