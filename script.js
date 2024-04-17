@@ -83,17 +83,39 @@ setInterval(() => {
 }, 500);
 
 
-function infoclick() {
-	var tagdsk = document.getElementById('information-tag-dsk');
-	var tagmbl = document.getElementById('information-tag-mbl');
-	var infob = document.getElementById('infoblurb'); 
-	infob.style.display === "none";
-	if (infob.style.display === "block"){
-		infob.style.display ="none";
+//function infoclick() {
+	//var tagdsk = document.getElementById('information-tag-dsk');
+//	var tagmbl = document.getElementById('information-tag-mbl');
+	//var infob = document.getElementById('infoblurb'); 
+	//infob.style.display === "none";
+//	if (infob.style.display === "block"){
+//		infob.style.display ="none";
 
-	} else{
-	infob.style.display = "block";
- }	
-}
+//	} else{
+//	infob.style.display = "block";
+ //}	
+//}
+const fullScreenDiv = document.getElementById('infoblurb');
+const toggleButton = document.getElementById('information-tag-dsk');
+const toggleButtonmbl = document.getElementById('information-tag-mbl');
+const fiveclock = document.getElementById('clocksflex');
 
-//console.log(hr1);
+toggleButton.addEventListener('click', () => {
+  fullScreenDiv.classList.toggle('active');
+  fiveclock.classList.toggle('active');
+});
+toggleButtonmbl.addEventListener('click', () => {
+	fullScreenDiv.classList.toggle('active');
+	fiveclock.classList.toggle('active');
+  });
+  
+
+const infoclose = document.getElementById('infoblurb');
+
+infoclose.addEventListener('click', () => {
+  fiveclock.classList.toggle('active');
+  fullScreenDiv.classList.toggle('active');
+});
+
+
+console.log(hr1);

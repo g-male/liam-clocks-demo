@@ -11,6 +11,43 @@ main{
 	position: relative;
 
 }
+
+#infoblurb{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+
+	transition: opacity 1s ease-in-out;
+	z-index: 9999;
+	
+}
+#infoblurb p{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#infoblurb.active{
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+	visibility: visible;
+}
+#clocksflex{
+	visibility: visible; 
+}
+#clocksflex.active{
+visibility: hidden;
+opacity: 0;
+transition: opacity 2s ease-in-out;
+}
+
+
 .fiveclocks{
 	display: flex;
 	width: 100vw;
@@ -61,7 +98,7 @@ position: absolute;
 #nyminute,
 #second {
 	position: absolute;
-	background: red;
+	background: black;
 	border-radius: 0px;
 
 }
@@ -79,7 +116,7 @@ position: absolute;
 	width: 1.3%;
 	height: 21%;
 	top: 9.5%;
-	left:49%;
+	left:48.5%;
 
 	transform-origin:bottom;
 }
@@ -131,12 +168,6 @@ position: absolute;
 position: absolute;
 
 }
-#infoblurb{
-	width: 100%;
-	height: 100%;
-	display: none;
-	
-}
 #clock-tokyo {
 
 	
@@ -182,7 +213,7 @@ position: absolute;
 #parishour,
 #parisminute {
 	position: absolute;
-	background: red;
+	background: black;
 	border-radius: 0px;
 
 }
@@ -215,7 +246,7 @@ position: absolute;
 #hkhour,
 #hkminute {
 	position: absolute;
-	background: red;
+	background: black;
 	border-radius: 0px;
 
 }
