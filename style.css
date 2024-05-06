@@ -284,7 +284,7 @@ position: absolute;
 		user-select: none;
 	}
 	.fiveclocks{
-		height: 90dvh;
+		height: 95dvh;
 		overflow-y: scroll;
 	}
 	#information-tag-dsk{
@@ -301,7 +301,7 @@ position: absolute;
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 86%;
-		height: 90dvh;
+		height: 84dvh;
 		align-items: center;
 		
 	}
