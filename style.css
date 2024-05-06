@@ -301,7 +301,7 @@ position: absolute;
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 86%;
-		height: 86%;
+		height: 80dvh;
 		align-items: center;
 		
 	}
