@@ -284,8 +284,8 @@ position: absolute;
 		user-select: none;
 	}
 	.fiveclocks{
-		height: 95dvh;
-		overflow-y: scroll;
+		height: 100dvh;
+		overflow-y: visible;
 	}
 	#information-tag-dsk{
 		display: none;
