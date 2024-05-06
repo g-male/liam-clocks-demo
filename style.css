@@ -303,7 +303,7 @@ position: absolute;
 		width: 86%;
 		height: 83dvh;
 		align-items: center;
-		margin-top: -10dvh;
+		margin-top: -13dvh;
 	}
 	.clock-item{
 		flex-basis: calc(100% / 2);
