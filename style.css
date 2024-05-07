@@ -277,6 +277,9 @@ position: absolute;
 }
 
 @media only screen and (max-width: 820px)  {
+main, body{
+	height: 100dvh;
+}
 
 	#infoblurb p{
 		font-size: 1em;
