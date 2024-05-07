@@ -111,11 +111,15 @@ toggleButtonmbl.addEventListener('click', () => {
   
 
 const infoclose = document.getElementById('infoblurb');
-
+const except = document.getElementById('except');
 infoclose.addEventListener('click', () => {
   fiveclock.classList.toggle('active');
   fullScreenDiv.classList.toggle('active');
 });
 
+except.addEventListener("click", function (ev) {
+  
+    ev.stopPropagation();
+}, false);
 
 console.log(hr1);
