@@ -311,7 +311,7 @@ main, body{
 	.clock-item{
 		flex-basis: calc(100% / 2);
 		box-sizing: border-box;
-		height: 60vw !important;
+		height: 50vw !important;
 		
 	}
 	.clock-item:last-child{
