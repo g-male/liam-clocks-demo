@@ -106,7 +106,7 @@ cursor: pointer;
 #second {
 	position: absolute;
 	background: black;
-	border-radius: 0px;
+	border-radius: 30px;
 
 }
 
@@ -144,7 +144,7 @@ cursor: pointer;
 #londonminute{
 	position: absolute;
 	background: black;
-	border-radius: 0px;
+	border-radius: 30px;
 	
 }
 
@@ -187,7 +187,7 @@ position: absolute;
 #tokyominute {
 	position: absolute;
 	background: black;
-	border-radius: 0px;
+	border-radius: 30px;
 
 }
 
@@ -221,7 +221,7 @@ position: absolute;
 #parisminute {
 	position: absolute;
 	background: black;
-	border-radius: 0px;
+	border-radius: 30px;
 
 }
 
@@ -254,7 +254,7 @@ position: absolute;
 #hkminute {
 	position: absolute;
 	background: black;
-	border-radius: 0px;
+	border-radius: 30px;
 
 }
 
@@ -360,7 +360,7 @@ main, body{
 		width: 1.3%;
 		height: 24%;
 		top: 13%;
-		left: 47%;
+		left: 47.5%;
 	
 		transform-origin:bottom;
 		position: relative;
@@ -387,7 +387,7 @@ main, body{
 		width: 1.3%;
 		height: 13%;
 		top: 23.5%;
-		left: 47%;
+		left: 4.95rem;
 		
 		transform-origin:bottom;
 	}
@@ -408,7 +408,7 @@ main, body{
 		width: 1.3%;
 		height: 13%;
 		top: 23.5%;
-		left: 47%;
+		left: 47.5%;
 		
 		transform-origin:bottom;
 	}
