@@ -291,7 +291,7 @@ main, body{
 	#infoblurb p{
 		font-size: 1em;
 		width: 90%;
-		user-select: none;
+		
 	}
 	.email-select{
 		white-space: wrap;
