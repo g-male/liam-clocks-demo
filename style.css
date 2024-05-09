@@ -115,9 +115,9 @@ cursor: pointer;
 
 #nyhour {
 	width: 1.3%;
-	height: 13%;
-	top: 17.5%;
-	left: 49%;
+	height: 12%;
+	top: 18.5%;
+	left: 48.5%;
 
 	transform-origin:bottom;
 }
@@ -153,8 +153,8 @@ cursor: pointer;
 
 #londonhour {
 	width: 1.3%;
-	height: 13%;
-	top: 17.5%;
+	height: 12%;
+	top: 18.5%;
 	left: 48.5%;
 
 	transform-origin:bottom;
@@ -196,9 +196,9 @@ position: absolute;
 
 #tokyohour {
 	width: 1.3%;
-	height: 13%;
-	top: 17.5%;
-	left: 49%;
+	height: 12%;
+	top: 18.5%;
+	left: 48.5%;
 
 	transform-origin:bottom;
 }
@@ -207,7 +207,7 @@ position: absolute;
 	width: 1.3%;
 	height: 21%;
 	top: 9.5%;
-	left:49%;
+	left:48.5%;
 
 	transform-origin:bottom;
 }
@@ -230,9 +230,9 @@ position: absolute;
 
 #parishour {
 	width: 1.3%;
-	height: 13%;
-	top: 17.5%;
-	left: 49%;
+	height: 12%;
+	top: 18.5%;
+	left: 48.5%;
 
 	transform-origin:bottom;
 }
@@ -241,7 +241,7 @@ position: absolute;
 	width: 1.3%;
 	height: 21%;
 	top: 9.5%;
-	left:49%;
+	left:48.5%;
 
 	transform-origin:bottom;
 }
@@ -263,9 +263,9 @@ position: absolute;
 
 #hkhour {
 	width: 1.3%;
-	height: 13%;
-	top: 17.5%;
-	left: 49%;
+	height: 12%;
+	top: 18.5%;
+	left: 48.5%;
 
 	transform-origin:bottom;
 }
@@ -342,7 +342,7 @@ main, body{
 	#tokyohour {
 		width: 1.3%;
 		height: 13%;
-		top: 23.5%;
+		top: 24%;
 		left: 47.5%;
 		
 		transform-origin:bottom;
@@ -351,7 +351,7 @@ main, body{
 	#tokyominute {
 		width: 1.3%;
 		height: 24%;
-		top: 13%;
+		top: 12.5%;
 		left: 47.5%;
 	
 		transform-origin:bottom;
@@ -361,7 +361,7 @@ main, body{
 	#parishour {
 		width: 1.3%;
 		height: 13%;
-		top: 23.5%;
+		top: 24%;
 		left: 47.5%;
 		
 		transform-origin:bottom;
@@ -370,7 +370,7 @@ main, body{
 	#parisminute {
 		width: 1.3%;
 		height: 24%;
-		top: 13%;
+		top: 12.5%;
 		left: 47.5%;
 	
 		transform-origin:bottom;
@@ -379,7 +379,7 @@ main, body{
 	#nyhour {
 		width: 1.3%;
 		height: 13%;
-		top: 23.5%;
+		top: 24%;
 		left: 47.5%;
 		
 		transform-origin:bottom;
@@ -388,7 +388,7 @@ main, body{
 	#nyminute {
 		width: 1.3%;
 		height: 24%;
-		top: 13.5%;
+		top: 13%;
 		left: 47.5%;
 	
 		transform-origin:bottom;
@@ -397,8 +397,8 @@ main, body{
 	#londonhour {
 		width: 1.3%;
 		height: 13%;
-		top: 23.5%;
-		left: 4.95rem;
+		top: 24%;
+		left: 47.5%;
 		
 		transform-origin:bottom;
 	}
@@ -418,7 +418,7 @@ main, body{
 	#hkhour {
 		width: 1.3%;
 		height: 13%;
-		top: 23.5%;
+		top: 24%;
 		left: 47.5%;
 		
 		transform-origin:bottom;
@@ -427,8 +427,8 @@ main, body{
 	#hkminute {
 		width: 1.3%;
 		height: 24%;
-		top: 13%;
-		left: 47%;
+		top: 12.5%;
+		left: 47.5%;
 	
 		transform-origin:bottom;
 		position: relative;
