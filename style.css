@@ -40,6 +40,7 @@ main{
   transform: translate(-50%, -50%);
   font-size: 1.5em;
 
+  width: 50%;
 }
 
 #infoblurb.active{
@@ -67,9 +68,10 @@ overflow-y: hidden;
 }
 #information-tag-dsk{
 	width: 100%;
-top: 30vw;
+top: 50dvh;
 position: absolute;
 cursor: pointer;
+position: absolute;
 }
 #information-tag-mbl{
 	display: none;
@@ -97,7 +99,7 @@ cursor: pointer;
 
 
 #clock-newyork {
-	background: url(ny_4k_dot.png) no-repeat;
+	background: url(ny_4k_dot2.png) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -137,7 +139,7 @@ cursor: pointer;
 		height: 23vw;
 		/*to make the height and width responsive*/
 		
-		background:url("/london_4k_dot.png") no-repeat;
+		background: url(/london_4k_dot2.png) no-repeat;
 		/*setting our background image*/
 		background-size: contain;
 		justify-content: center;
@@ -181,7 +183,7 @@ position: absolute;
 #clock-tokyo {
 
 	
-	background: url(/tokyo_4k_dot.png) no-repeat;
+	background: url(/tokyo_4k_dot2.png) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -214,7 +216,7 @@ position: absolute;
 #clock-paris {
 
 
-	background:url('/paris_4k_dot.png') no-repeat, url("PARIS_SHADOW.PNG") no-repeat;
+	background:url('/paris_4k_dot2.png') no-repeat, url("PARIS_SHADOW.PNG") no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 	
@@ -248,7 +250,7 @@ position: absolute;
 #clock-hongkong {
 
 
-	background: url("/hk_4k_dot.png" ) no-repeat;
+	background: url("/hk_4k_dot2.png" ) no-repeat;
 	/*setting our background image*/
 	background-size: contain;
 }
@@ -345,15 +347,17 @@ main, body{
 		top: 24%;
 		left: 47.5%;
 		
+		background-color: black;
 		transform-origin:bottom;
 	}
 	
 	#tokyominute {
 		width: 1.3%;
 		height: 24%;
-		top: 12.5%;
+		top: 13%;
 		left: 47.5%;
 	
+		background-color: black;
 		transform-origin:bottom;
 		position: relative;
 	}
@@ -363,16 +367,17 @@ main, body{
 		height: 13%;
 		top: 24%;
 		left: 47.5%;
-		
+		background-color: black;
 		transform-origin:bottom;
 	}
 	
 	#parisminute {
 		width: 1.3%;
 		height: 24%;
-		top: 12.5%;
+		top: 13%;
 		left: 47.5%;
 	
+		background-color: black;
 		transform-origin:bottom;
 		position: relative;
 	}
@@ -382,6 +387,7 @@ main, body{
 		top: 24%;
 		left: 47.5%;
 		
+		background-color: black;
 		transform-origin:bottom;
 	}
 	
@@ -391,6 +397,7 @@ main, body{
 		top: 13%;
 		left: 47.5%;
 	
+		background-color: black;
 		transform-origin:bottom;
 		position: relative;
 	}
@@ -400,15 +407,17 @@ main, body{
 		top: 24%;
 		left: 47.5%;
 		
+		background-color: black;
 		transform-origin:bottom;
 	}
 	
 	#londonminute {
 		width: 1.3%;
 		height: 24%;
-		top: 13.5%;
+		top: 13%;
 		left: 47.5%;
 	
+		background-color: black;
 		transform-origin:bottom;
 		position: relative;
 	}
@@ -421,15 +430,17 @@ main, body{
 		top: 24%;
 		left: 47.5%;
 		
+		background-color: black;
 		transform-origin:bottom;
 	}
 	
 	#hkminute {
 		width: 1.3%;
 		height: 24%;
-		top: 12.5%;
+		top: 13%;
 		left: 47.5%;
 	
+		background-color: black;
 		transform-origin:bottom;
 		position: relative;
 	}
